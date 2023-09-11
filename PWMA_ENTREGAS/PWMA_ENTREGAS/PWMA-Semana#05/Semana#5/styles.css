@@ -1,0 +1,97 @@
+ * {
+   background-color: #F9CF2C;
+ }
+
+ .img-logo {
+   display: flex;
+   justify-content: center;
+ }
+
+
+ /* Sobre e Home */
+ /* Reset de margens e preenchimento padrão */
+ body,
+ ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Estilize a barra de navegação */
+ nav {
+   background-color: black;
+   color: #fff;
+ }
+
+ nav ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+   /* Alinha os itens na barra de navegação */
+ }
+
+ nav li {
+   margin: 0;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   padding: 10px 20px;
+   /* Espaçamento interno dos links */
+ }
+
+ /* Estilize os links quando passam o mouse por cima */
+ nav a:hover {
+   background-color: black;
+ }
+
+ .mapa-mental {
+   display: flex;
+   justify-content: center;
+ }
+
+ /* Sobre e Home fim */
+
+
+ /* Sing */
+
+ .dados-cadastro {
+   width: 100%;
+   max-width: 400px;
+   /* Largura máxima do formulário */
+   margin: 0 auto;
+   /* Centralizar o formulário na tela */
+ }
+
+ .form-item {
+   margin-bottom: 10px;
+   /* Espaço entre cada item do formulário */
+ }
+
+ label {
+   display: block;
+   /* Cada rótulo e campo em uma nova linha */
+   font-weight: bold;
+   /* Deixa o rótulo em negrito, se desejado */
+ }
+
+ input[type="email"],
+ input[type="password"] {
+   width: 100%;
+   /* Ocupa toda a largura do seu contêiner */
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 5px;
+ }
+
+ /* Sing fim */
+
+ .footer {
+   text-align: right;
+   color: black;
+
+ }
+
+ /* Perfil*/
