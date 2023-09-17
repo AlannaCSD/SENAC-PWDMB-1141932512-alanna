@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>An Events</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imgs/AN.png">
+
+</head>
+<header>
+  <sectio class="img-logo">
+    <img src="imgs/AN-logo-semfundo.png" alt="Logotipo AN Events" width="400">
+  </sectio>
+</header>
+
+<body>
+  <div class="perfil">
+    <form action="processar_upload.php" method="post" enctype="multipart/form-data">
+      <img src="" alt="Sua Foto de Perfil" id="foto-preview" class="perfil-foto">
+      <input type="file" name="foto" id="foto" accept="image/*" onchange="previewImage(this)">
+      <h1 class="perfil-nome">Seu Nome</h1>
+      <div class="perfil-info">
+        <p class="perfil-email">Email: seuemail@example.com</p>
+        <p class="perfil-cidade">Cidade: Sua Cidade</p>
+        <p class="perfil-idade">Idade: Sua Idade</p>
+        <p class="perfil-interesses">Interesses: Interesse 1, Interesse 2, Interesse 3</p>
+      </div>
+      <button type="submit">Atualizar Foto</button>
+    </form>
+  </div>
+  <script src="perfil.js"></script>
+</body>
+
+</html>

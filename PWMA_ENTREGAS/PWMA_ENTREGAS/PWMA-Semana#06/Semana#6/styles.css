@@ -1,0 +1,159 @@
+* {
+  background-color: #F9CF2C;
+}
+
+.img-logo {
+  display: flex;
+  justify-content: center;
+}
+
+/*Cadastro*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F9CF2C;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*Cadastro Fim*/
+
+/* Sobre e Home */
+/* Reset de margens e preenchimento padrão */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilize a barra de navegação */
+nav {
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Alinha os itens na barra de navegação */
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  /* Espaçamento interno dos links */
+}
+
+
+/* Estilize os links quando passam o mouse por cima */
+nav a:hover {
+  background-color: black;
+}
+
+.mapa-mental {
+  display: flex;
+  justify-content: center;
+}
+
+/* Sobre e Home fim */
+
+
+
+
+.footer {
+  text-align: right;
+  color: black;
+
+}
+
+/* Perfil*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F9CF2C;
+  margin: 0;
+  padding: 0;
+}
+
+.perfil {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+}
+
+.perfil h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.perfil p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+
+/* Perfil Fim */
