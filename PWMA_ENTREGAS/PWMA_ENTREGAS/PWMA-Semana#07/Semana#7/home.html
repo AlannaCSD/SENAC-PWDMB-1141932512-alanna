@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AN Events</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imgs/AN.png">
+  <script src="script.java"></script>
+</head>
+
+<body>
+  <header>
+    <sectio class="img-logo">
+      <img src="imgs/AN-logo-semfundo.png" alt="Logotipo AN Events" width="400">
+    </sectio>
+
+
+    <button onclick="iniciarInteracao()">Clique para começar</button>
+    <section id="resultado">
+      <p>Observe este ponto: Aqui irá aparecer o resultado... </p>
+    </section>
+
+    <script>
+      function iniciarInteracao() {
+        let nome = window.prompt('Qual é o seu nome?')
+        let res = window.document.getElementById('resultado')
+
+        res.innerHTML = `<p>Olá, <strong>${nome}</strong>! Bem vindo ao AN Events! &#x1F596;`
+      }
+    </script>
+
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="calendario.html">Calendario dos Eventos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="pagamentos.html">Pagamentos</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+          <li><a href="cadatro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+
+      <script>
+        function menuOnClick() {
+          document.getElementById("menu-bar").classList.toggle("change");
+          document.getElementById("nav").classList.toggle("change");
+          document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+      </script>
+    </div>
+  </header>
+
+  <footer class="footer">
+    <p>&copy;AN Events - 2023 todos os direitos reservados</p>
+    <p>
+      Integrantes: Alanna Dias e Nicoly Ketllyn.</p>
+  </footer>
+</body>
+
+</html>
